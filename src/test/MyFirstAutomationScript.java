@@ -18,6 +18,10 @@ public class MyFirstAutomationScript {
 			System.out.println("Test case Passed");
 		}
 		driver.quit();
+		else{
+		
+			System.out.printlm("Failed");
+		}
 	}
 
 }
