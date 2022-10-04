@@ -12,6 +12,11 @@ public class MyFirstAutomationScript {
 		driver.get("https://adactinhotelapp.com");
 		driver.findElement(By.id("username")).sendKeys("sufu12345");
 		driver.findElement(By.id("password")).sendKeys("sufu1234");
+		driver.findElement(By.id("login")).click();
+		String actualTitle=driver.getTitle();
+		if(actualTitle.equalsIgnoreCase("Adactin.com - Search Hotel")) {
+			System.out.println("Test case Passed");
+		}
 		driver.quit();
 	}
 
