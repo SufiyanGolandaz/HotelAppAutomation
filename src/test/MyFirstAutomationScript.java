@@ -17,11 +17,12 @@ public class MyFirstAutomationScript {
 		if(actualTitle.equalsIgnoreCase("Adactin.com - Search Hotel")) {
 			System.out.println("Test case Passed");
 		}
-		driver.quit();
+		
 		else{
 		
-			System.out.printlm("Failed");
+			System.out.println("Failed");
 		}
+		driver.quit();
 	}
 
 }
