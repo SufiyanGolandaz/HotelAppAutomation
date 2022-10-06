@@ -19,6 +19,7 @@ public class AlertHandling {
 		driver.wait(5000);
 		driver.switchTo().alert().accept();
 		System.out.println("I have clicked on alert");
+		System.out.println("Adding statement for new branch");
 		driver.quit();
 	}
 
