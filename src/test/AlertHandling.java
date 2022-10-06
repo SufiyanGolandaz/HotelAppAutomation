@@ -18,6 +18,7 @@ public class AlertHandling {
 		driver.findElement(By.id("timerAlertButton")).click();
 		driver.wait(5000);
 		driver.switchTo().alert().accept();
+		System.out.println("I have clicked on alert");
 		driver.quit();
 	}
 
